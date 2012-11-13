@@ -1,0 +1,1 @@
+Awesome! Just put your app inside of a <parseauth> tag and your content only shows up once your user logs in!
