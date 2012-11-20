@@ -1,0 +1,5 @@
+<div class="parseauth">
+  <loginbox ng-show="!authenticated && authmode == 'login'"></loginbox>
+  <registerbox ng-show="!authenticated && authmode == 'register'"></registerbox>
+  <div ng-show="authenticated" class="authed-content" ng-transclude></div>
+</div>

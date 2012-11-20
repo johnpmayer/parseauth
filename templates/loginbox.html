@@ -1,0 +1,26 @@
+<div class="row-fluid">
+  <div class="offset4 span4 form-horizontal loginbox">
+    <div class="control-group">
+      <label class="control-label" for="inputUsername">Username</label>
+      <div class="controls">
+        <input type="text" ng-model="username" id="inputUsername" placeholder="Username"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="control-label" for="inputPassword">Password</label>
+      <div class="controls">
+        <input type="password" ng-model="password" id="inputPassword" placeholder="Password"/>
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <button class="btn" ng-click="login()">Login</button>
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <a ng-click="registerUI()">Register</a>
+      </div>
+    </div>
+  </div>
+</div>
